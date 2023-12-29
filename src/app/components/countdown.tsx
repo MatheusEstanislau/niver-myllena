@@ -12,7 +12,7 @@ const Countdown = ({ onCountdownEnd }: { onCountdownEnd: () => void }) => {
 
   useEffect(() => {
     // Define a data do aniversário e a data atual
-    const birthday = new Date("December 28, 2023 08:00:00"); // Certifique-se de ajustar para o fuso horário desejado
+    const birthday = new Date("December 29, 2023 07:30:00"); // Certifique-se de ajustar para o fuso horário desejado
     const now = new Date();
 
     // Calcula a diferença entre agora e a data do aniversário
